@@ -1,0 +1,146 @@
+{
+  "name": "Broadcast IEM Mix",
+  "description": "IEM broadcast mix template with stems and intercom",
+  "author": "",
+  "version": "1.0",
+  "console": "",
+  "daw": "",
+  "slots": [
+    {
+      "slot": 1,
+      "label": "Kick",
+      "group": "DRUMS",
+      "hw_input": 1,
+      "output": "Drum Stem",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 2,
+      "label": "Snare",
+      "group": "DRUMS",
+      "hw_input": 2,
+      "output": "Drum Stem",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 3,
+      "label": "OH L",
+      "group": "DRUMS",
+      "hw_input": 3,
+      "output": "Drum Stem",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 4,
+      "label": "OH R",
+      "group": "DRUMS",
+      "hw_input": 4,
+      "output": "Drum Stem",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 5,
+      "label": "Bass",
+      "group": "BASS",
+      "hw_input": 5,
+      "output": "Music Stem",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 6,
+      "label": "GTR",
+      "group": "GUITARS",
+      "hw_input": 6,
+      "output": "Music Stem",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 7,
+      "label": "Keys",
+      "group": "KEYS",
+      "hw_input": 7,
+      "output": "Music Stem",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 8,
+      "label": "Lead Vox",
+      "group": "VOCALS",
+      "hw_input": 8,
+      "output": "Vocal Stem",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 9,
+      "label": "BGV",
+      "group": "VOCALS",
+      "hw_input": 9,
+      "output": "Vocal Stem",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 10,
+      "label": "Click",
+      "group": "MISC",
+      "hw_input": 10,
+      "output": "Click Out",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 11,
+      "label": "Timecode",
+      "group": "MISC",
+      "hw_input": 11,
+      "output": "TC Out",
+      "required": true,
+      "notes": ""
+    }
+  ],
+  "buses": [
+    {
+      "name": "Drum Stem",
+      "slots": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "color": "#2C3E50"
+    },
+    {
+      "name": "Music Stem",
+      "slots": [
+        5,
+        6,
+        7
+      ],
+      "color": "#2C3E50"
+    },
+    {
+      "name": "Vocal Stem",
+      "slots": [
+        8,
+        9
+      ],
+      "color": "#2C3E50"
+    },
+    {
+      "name": "Click Out",
+      "slots": [
+        10
+      ],
+      "color": "#2C3E50"
+    }
+  ],
+  "notes": ""
+}

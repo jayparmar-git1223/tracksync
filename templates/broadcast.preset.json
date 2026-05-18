@@ -1,0 +1,62 @@
+{
+  "name": "Broadcast / Streaming",
+  "description": "Broadcast and streaming optimized. Clean submix structure with commentary and intercom routing.",
+  "author": "Live Console DAW Mirror",
+  "buses": [
+    {
+      "name": "Music Bus",
+      "groups": [
+        "DRUMS",
+        "GUITARS",
+        "BASS",
+        "KEYS",
+        "BRASS"
+      ],
+      "color": "#1A5276",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Vocal Bus",
+      "groups": [
+        "VOCALS"
+      ],
+      "color": "#7B241C",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "FX Bus",
+      "groups": [
+        "EFFECTS"
+      ],
+      "color": "#2C3E50",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "PGM Bus",
+      "groups": [],
+      "color": "#1E8449",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Commentary",
+      "groups": [],
+      "color": "#6C3483",
+      "bus_type": "subgroup"
+    }
+  ],
+  "group_overrides": {
+    "pres": "VOCALS",
+    "host": "VOCALS",
+    "talent": "VOCALS",
+    "comm": "MISC",
+    "itv": "MISC"
+  },
+  "color_overrides": {},
+  "default_output": "PGM Bus",
+  "tags": [
+    "broadcast",
+    "streaming",
+    "radio",
+    "tv"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Playback / Click Rig",
+  "description": "Playback engineer focused. Click, timecode, stems, and IEM monitoring.",
+  "author": "Live Console DAW Mirror",
+  "buses": [
+    {
+      "name": "Stems Bus",
+      "groups": [
+        "EFFECTS"
+      ],
+      "color": "#6C3483",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "IEM Mix",
+      "groups": [],
+      "color": "#1A5276",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Click Out",
+      "groups": [
+        "MISC"
+      ],
+      "color": "#7B241C",
+      "bus_type": "subgroup"
+    }
+  ],
+  "group_overrides": {
+    "click": "MISC",
+    "clk": "MISC",
+    "tc": "MISC",
+    "timecode": "MISC",
+    "stem": "EFFECTS",
+    "pb": "EFFECTS",
+    "track": "EFFECTS"
+  },
+  "color_overrides": {},
+  "default_output": "Stems Bus",
+  "tags": [
+    "playback",
+    "click",
+    "stems",
+    "iem"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Festival Rig",
+  "description": "Minimal, portable festival setup. Fast changeover focus.",
+  "author": "Live Console DAW Mirror",
+  "buses": [
+    {
+      "name": "Band Bus",
+      "groups": [
+        "DRUMS",
+        "BASS",
+        "GUITARS",
+        "KEYS",
+        "BRASS"
+      ],
+      "color": "#7B241C",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Vox Bus",
+      "groups": [
+        "VOCALS"
+      ],
+      "color": "#1A5276",
+      "bus_type": "subgroup"
+    }
+  ],
+  "group_overrides": {},
+  "color_overrides": {},
+  "default_output": "Main LR",
+  "tags": [
+    "festival",
+    "outdoor",
+    "changeover"
+  ]
+}

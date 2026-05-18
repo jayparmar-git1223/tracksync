@@ -1,0 +1,283 @@
+{
+  "name": "Standard Live Show",
+  "description": "32-channel live show template with standard drum/vocal/GTR/keys structure",
+  "author": "",
+  "version": "1.0",
+  "console": "",
+  "daw": "",
+  "slots": [
+    {
+      "slot": 1,
+      "label": "Kick In",
+      "group": "DRUMS",
+      "hw_input": 1,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 2,
+      "label": "Kick Out",
+      "group": "DRUMS",
+      "hw_input": 2,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 3,
+      "label": "Snare Top",
+      "group": "DRUMS",
+      "hw_input": 3,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 4,
+      "label": "Snare Bot",
+      "group": "DRUMS",
+      "hw_input": 4,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 5,
+      "label": "Hi Hat",
+      "group": "DRUMS",
+      "hw_input": 5,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 6,
+      "label": "Ride",
+      "group": "DRUMS",
+      "hw_input": 6,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 7,
+      "label": "Tom 1",
+      "group": "DRUMS",
+      "hw_input": 7,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 8,
+      "label": "Tom 2",
+      "group": "DRUMS",
+      "hw_input": 8,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 9,
+      "label": "Tom 3",
+      "group": "DRUMS",
+      "hw_input": 9,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 10,
+      "label": "Floor Tom",
+      "group": "DRUMS",
+      "hw_input": 10,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 11,
+      "label": "OH L",
+      "group": "DRUMS",
+      "hw_input": 11,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 12,
+      "label": "OH R",
+      "group": "DRUMS",
+      "hw_input": 12,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 13,
+      "label": "Room L",
+      "group": "DRUMS",
+      "hw_input": 13,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 14,
+      "label": "Room R",
+      "group": "DRUMS",
+      "hw_input": 14,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 15,
+      "label": "Bass DI",
+      "group": "BASS",
+      "hw_input": 15,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 16,
+      "label": "Bass Amp",
+      "group": "BASS",
+      "hw_input": 16,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 17,
+      "label": "GTR L",
+      "group": "GUITARS",
+      "hw_input": 17,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 18,
+      "label": "GTR R",
+      "group": "GUITARS",
+      "hw_input": 18,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 19,
+      "label": "Keys L",
+      "group": "KEYS",
+      "hw_input": 19,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 20,
+      "label": "Keys R",
+      "group": "KEYS",
+      "hw_input": 20,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 21,
+      "label": "Lead Vox",
+      "group": "VOCALS",
+      "hw_input": 21,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 22,
+      "label": "BGV 1",
+      "group": "VOCALS",
+      "hw_input": 22,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 23,
+      "label": "BGV 2",
+      "group": "VOCALS",
+      "hw_input": 23,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "slot": 24,
+      "label": "BGV 3",
+      "group": "VOCALS",
+      "hw_input": 24,
+      "output": "Main LR",
+      "required": true,
+      "notes": ""
+    }
+  ],
+  "buses": [
+    {
+      "name": "Drum Bus",
+      "slots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "color": "#2C3E50"
+    },
+    {
+      "name": "Bass Bus",
+      "slots": [
+        15,
+        16
+      ],
+      "color": "#2C3E50"
+    },
+    {
+      "name": "GTR Bus",
+      "slots": [
+        17,
+        18
+      ],
+      "color": "#2C3E50"
+    },
+    {
+      "name": "Keys Bus",
+      "slots": [
+        19,
+        20
+      ],
+      "color": "#2C3E50"
+    },
+    {
+      "name": "Vocal Bus",
+      "slots": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "color": "#2C3E50"
+    }
+  ],
+  "notes": ""
+}

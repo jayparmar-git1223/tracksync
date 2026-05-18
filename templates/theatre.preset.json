@@ -1,0 +1,57 @@
+{
+  "name": "Theatre / Musical",
+  "description": "Theatre and musical production optimized. Lavalier mics, orchestra pit, and playback tracks.",
+  "author": "Live Console DAW Mirror",
+  "buses": [
+    {
+      "name": "Lavs Bus",
+      "groups": [
+        "VOCALS"
+      ],
+      "color": "#1A5276",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Orch Bus",
+      "groups": [
+        "STRINGS",
+        "BRASS",
+        "KEYS"
+      ],
+      "color": "#7D6608",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Playback Bus",
+      "groups": [
+        "EFFECTS"
+      ],
+      "color": "#6C3483",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "FX Bus",
+      "groups": [
+        "EFFECTS"
+      ],
+      "color": "#2C3E50",
+      "bus_type": "subgroup"
+    }
+  ],
+  "group_overrides": {
+    "lav": "VOCALS",
+    "lapel": "VOCALS",
+    "headset": "VOCALS",
+    "pit": "STRINGS",
+    "pb": "EFFECTS",
+    "track": "EFFECTS"
+  },
+  "color_overrides": {},
+  "default_output": "Main LR",
+  "tags": [
+    "theatre",
+    "musical",
+    "production",
+    "lavs"
+  ]
+}

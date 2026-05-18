@@ -1,0 +1,42 @@
+2026-05-18 17:29:50 | INFO     | root                 | [INFO] Logging initialized → logs\session_export.log
+2026-05-18 17:29:51 | INFO     | __main__             | [INFO] Starting Live Console → DAW Mirror
+2026-05-18 17:29:53 | INFO     | gui.main_window      | [INFO] Live Console → DAW Mirror v1.0.0 started
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered DiGiCoParser
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered YamahaParser
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered AllenHeathParser
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered RIVAGEParser
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered AvidS6LParser
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered REAPERExporter
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered CubaseExporter
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered NuendoExporter
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered ProToolsExporter
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered AbletonExporter
+2026-05-18 17:30:09 | DEBUG    | registry             | [DEBUG] Registry: Registered LogicExporter
+2026-05-18 17:30:09 | INFO     | registry             | [INFO] Registry: Loaded 5 parsers, 6 exporters
+2026-05-18 17:30:09 | INFO     | parser.digico_parser | [INFO] DiGiCoParser: Starting parse of 'C:/Users/Home/Desktop/digico-converter/mp02 jay_krishna band_foh_q338_v2025_96khz.rtf'
+2026-05-18 17:30:09 | INFO     | DiGiCoParser         | [INFO] Validated file: C:/Users/Home/Desktop/digico-converter/mp02 jay_krishna band_foh_q338_v2025_96khz.rtf (20369 bytes)
+2026-05-18 17:30:09 | INFO     | parser.digico_parser | [INFO] DiGiCoParser: Extracted 10597 chars of plain text
+2026-05-18 17:30:09 | INFO     | parser.digico_parser | [INFO] DiGiCoParser: Found 39 tracks
+2026-05-18 17:30:09 | INFO     | parser.digico_parser | [SUCCESS] DiGiCoParser: Session 'c:\projects\mp02 jay_krishna band_foh_q338_v2025_96khz.ses    mp02 jay_krishna b' loaded — 39 tracks, 3 buses
+2026-05-18 17:30:09 | INFO     | gui.track_table      | [INFO] TrackTable: Loaded 39 tracks
+2026-05-18 17:30:38 | INFO     | CubaseExporter       | [INFO] CubaseExporter: Exporting 'Untitled Session' (39 tracks) → Cubase Track Archive
+2026-05-18 17:30:38 | INFO     | exporters.cubase.cubase_exporter | [INFO] CubaseExporter: Using override template from 'C:\Users\Home\Downloads\live-console-daw-mirror-v5\live-console-daw-mirror\templates\cubase_track_template.xml'
+2026-05-18 17:30:38 | INFO     | CubaseExporter       | [SUCCESS] CubaseExporter: Written to 'C:\Users\Home\Desktop\mp02 jay_krishna band_foh_q338_v2025_96khz.ses    mp02 jay_krishna cubase v5.xml'
+2026-05-18 17:31:18 | INFO     | CubaseExporter       | [INFO] CubaseExporter: Exporting 'Untitled Session' (39 tracks) → Cubase Track Archive
+2026-05-18 17:31:18 | INFO     | exporters.cubase.cubase_exporter | [INFO] CubaseExporter: Using override template from 'C:\Users\Home\Downloads\live-console-daw-mirror-v5\live-console-daw-mirror\templates\cubase_track_template.xml'
+2026-05-18 17:31:18 | INFO     | CubaseExporter       | [SUCCESS] CubaseExporter: Written to 'C:\Users\Home\Desktop\cubase 5.xml'
+2026-05-18 17:36:00 | INFO     | parser.rivage_parser | [INFO] RIVAGEParser: Starting parse of 'C:/Users/Home/Desktop/yamaha for test.RIVAGEPM'
+2026-05-18 17:36:00 | INFO     | RIVAGEParser         | [INFO] Validated file: C:/Users/Home/Desktop/yamaha for test.RIVAGEPM (216440 bytes)
+2026-05-18 17:36:00 | INFO     | parser.rivage_parser | [INFO] RIVAGEParser: Valid MBDF header confirmed
+2026-05-18 17:36:00 | INFO     | parser.rivage_parser | [INFO] RIVAGEParser: Console model: RIVAGE PM10, max_channels=96
+2026-05-18 17:36:00 | DEBUG    | parser.rivage_parser | [DEBUG] RIVAGEParser: Streams by size: [(3039372, '0x1701c'), (3039372, '0x206cc'), (3032864, '0xcecc'), (1818900, '0x1c8'), (1818900, '0x685c'), (830916, '0x159d8'), (97292, '0x167a0'), (97292, '0x16af4')]
+2026-05-18 17:36:00 | INFO     | parser.rivage_parser | [INFO] RIVAGEParser: Found 11 zlib streams
+2026-05-18 17:36:00 | DEBUG    | parser.rivage_parser | [DEBUG] RIVAGEParser: ConsoleSetup stream found (3,039,372 bytes, marker 'b'ConsoleSetup'' at 0x74)
+2026-05-18 17:36:00 | INFO     | parser.rivage_parser | [INFO] RIVAGEParser: ConsoleSetup stream: 3,039,372 bytes
+2026-05-18 17:36:00 | DEBUG    | parser.rivage_parser | [DEBUG] RIVAGEParser: Best anchor at 0x00133aad (score=87)
+2026-05-18 17:36:00 | INFO     | parser.rivage_parser | [INFO] RIVAGEParser: Extracted 50 named channels
+2026-05-18 17:36:00 | INFO     | parser.rivage_parser | [SUCCESS] RIVAGEParser: 'Yamaha For Test' loaded — 50 tracks, 6 buses, 96000 Hz
+2026-05-18 17:36:00 | INFO     | gui.track_table      | [INFO] TrackTable: Loaded 50 tracks
+2026-05-18 17:36:10 | INFO     | CubaseExporter       | [INFO] CubaseExporter: Exporting 'Untitled Session' (50 tracks) → Cubase Track Archive
+2026-05-18 17:36:10 | INFO     | exporters.cubase.cubase_exporter | [INFO] CubaseExporter: Using override template from 'C:\Users\Home\Downloads\live-console-daw-mirror-v5\live-console-daw-mirror\templates\cubase_track_template.xml'
+2026-05-18 17:36:10 | INFO     | CubaseExporter       | [SUCCESS] CubaseExporter: Written to 'C:\Users\Home\Desktop\Yamaha From cubase.xml'

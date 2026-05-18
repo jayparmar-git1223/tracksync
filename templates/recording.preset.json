@@ -1,0 +1,80 @@
+{
+  "name": "Recording Session",
+  "description": "Studio recording optimized. Stem buses, detailed group structure, and marker tracks.",
+  "author": "Live Console DAW Mirror",
+  "buses": [
+    {
+      "name": "Drum Stem",
+      "groups": [
+        "DRUMS"
+      ],
+      "color": "#7B241C",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Vocal Stem",
+      "groups": [
+        "VOCALS"
+      ],
+      "color": "#1A5276",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "GTR Stem",
+      "groups": [
+        "GUITARS"
+      ],
+      "color": "#1E8449",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Keys Stem",
+      "groups": [
+        "KEYS"
+      ],
+      "color": "#6C3483",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Bass Stem",
+      "groups": [
+        "BASS"
+      ],
+      "color": "#784212",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Brass Stem",
+      "groups": [
+        "BRASS"
+      ],
+      "color": "#7D6608",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Perc Stem",
+      "groups": [
+        "DRUMS"
+      ],
+      "color": "#7B241C",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Mix Bus",
+      "groups": [],
+      "color": "#2C3E50",
+      "bus_type": "subgroup"
+    }
+  ],
+  "group_overrides": {
+    "ref": "MISC",
+    "talk": "MISC"
+  },
+  "color_overrides": {},
+  "default_output": "Mix Bus",
+  "tags": [
+    "recording",
+    "studio",
+    "tracking"
+  ]
+}

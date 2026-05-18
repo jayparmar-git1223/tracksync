@@ -1,0 +1,77 @@
+{
+  "name": "Live Show",
+  "description": "Standard live touring template. Drums, vocals, guitars, keys, and brass each get a dedicated subgroup bus.",
+  "author": "Live Console DAW Mirror",
+  "buses": [
+    {
+      "name": "Drum Bus",
+      "groups": [
+        "DRUMS"
+      ],
+      "color": "#7B241C",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Vocal Bus",
+      "groups": [
+        "VOCALS"
+      ],
+      "color": "#1A5276",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "GTR Bus",
+      "groups": [
+        "GUITARS"
+      ],
+      "color": "#1E8449",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Keys Bus",
+      "groups": [
+        "KEYS"
+      ],
+      "color": "#6C3483",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Bass Bus",
+      "groups": [
+        "BASS"
+      ],
+      "color": "#784212",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "Brass Bus",
+      "groups": [
+        "BRASS"
+      ],
+      "color": "#7D6608",
+      "bus_type": "subgroup"
+    },
+    {
+      "name": "FX Bus",
+      "groups": [
+        "EFFECTS"
+      ],
+      "color": "#2C3E50",
+      "bus_type": "subgroup"
+    }
+  ],
+  "group_overrides": {
+    "click": "MISC",
+    "tc": "MISC",
+    "timecode": "MISC",
+    "playback": "EFFECTS",
+    "stems": "EFFECTS"
+  },
+  "color_overrides": {},
+  "default_output": "Main LR",
+  "tags": [
+    "live",
+    "touring",
+    "concert"
+  ]
+}
